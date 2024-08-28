@@ -52,7 +52,7 @@ section {
 }
 
 header {
-    background-color: teal;
+    background-color: rgb(206, 243, 243);
 }
 
 .nav {
@@ -84,7 +84,8 @@ header {
 
 .nav-item-link:hover,
 .nav-item-link:focus {
-    color: #fff;
+    color: rgb(9, 109, 109);
+    text-decoration: underline;
 }
 
 .language-item {
@@ -141,13 +142,24 @@ header {
     display: flex;
     gap: 36px;
 }
-
+.me-title {
+    font-family: "Great Vibes", sans-serif;
+    font-weight: 800; 
+    font-size: 32px;
+}
 .me-description {
+    font-family: "Great Vibes", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 150%;
     letter-spacing: 0.02em;
     width: 600px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+.me-quote {
+    font-family: "Great Vibes", sans-serif;
+    font-size: 50px;
 }
 
 .me-photo {
