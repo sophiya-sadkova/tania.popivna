@@ -79,13 +79,13 @@ header {
 .nav-item-link {
     padding-top: 24px;
     padding-bottom: 24px;
-    color: black;
+    color: #fff;
     transition: color 250ms ease-in-out;
 }
 
 .nav-item-link:hover,
 .nav-item-link:focus {
-    color: #fff;
+    color: olivedrab;
 }
 
 .language-item {
@@ -122,6 +122,8 @@ header {
     line-height: 111%;
     letter-spacing: 0.02em;
     margin-bottom: 360px;
+    color: oldlace;
+    text-shadow: black;
 }
 
 .button {
@@ -134,10 +136,10 @@ header {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: 0;
     border-radius: 8px;
-
+    transition: background-color 250ms ease-in;
 }
 .button:hover, .button:focus {
-    back
+    background-color: rgb(78, 105, 25);
 }
 
 /* Me */
