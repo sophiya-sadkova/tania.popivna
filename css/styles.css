@@ -83,7 +83,7 @@ color: #fff;
     background-color: teal;
     margin: 0 auto;
     height: 600px;
-    background-image: url(../images/hero-color.png);
+    background-image: url(/images/hero-color.png);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
