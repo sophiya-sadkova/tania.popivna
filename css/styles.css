@@ -141,12 +141,9 @@ header {
 }
 
 /* Me */
-.me-section {
-    background-color: rgb(221, 193, 155);
-}
 .me-container {
     display: flex;
-    gap: 36px;
+    gap: 64px;
 }
 .me-title {
     font-family: "Comfortaa", sans-serif;
