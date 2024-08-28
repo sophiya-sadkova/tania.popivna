@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Comfortaa", sans-serif;
 }
 
 h1,
@@ -114,7 +114,6 @@ header {
 
 }
 .hero-title {
-    font-family: "Comfortaa", sans-serif;
     font-weight: 300;
     font-size: 48px;
     line-height: 107%;
@@ -141,6 +140,9 @@ header {
 }
 
 /* Me */
+.me-section {
+    background-color: #d9c5ba;
+}
 .me-container {
     display: flex;
     gap: 64px;
