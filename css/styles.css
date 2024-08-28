@@ -53,7 +53,7 @@ section {
 }
 
 header {
-    background-color: burlywood;
+    background-color: rgb(70, 68, 67);
 }
 
 .nav {
@@ -85,8 +85,7 @@ header {
 
 .nav-item-link:hover,
 .nav-item-link:focus {
-    color: rgb(9, 109, 109);
-    text-decoration: underline;
+    color: #fff;
 }
 
 .language-item {
@@ -100,29 +99,29 @@ header {
 
 /* Hero */
 .hero {
-    background-color: teal;
-    margin: 0 auto;
+    background-color: olivedrab;
     height: 600px;
     background-image: url(../images/hero-color.png);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048);
+        padding-top: 60px;
 }
 
 .hero-container {
     max-width: 100%;
     height: 100%;
-    padding-bottom: 80px;
+    margin-left: 32px;
 
 }
-
 .hero-title {
+    font-family: "Comfortaa", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 111%;
     letter-spacing: 0.02em;
-    margin-bottom: 340px;
+    margin-bottom: 360px;
 }
 
 .button {
@@ -131,11 +130,14 @@ header {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: teal;
+    background-color: olivedrab;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: 0;
     border-radius: 8px;
 
+}
+.button:hover, .button:focus {
+    back
 }
 
 /* Me */
