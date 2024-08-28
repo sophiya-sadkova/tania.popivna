@@ -53,7 +53,7 @@ section {
 }
 
 header {
-    background-color: rgb(206, 243, 243);
+    background-color: burlywood;
 }
 
 .nav {
@@ -140,7 +140,7 @@ header {
 
 /* Me */
 .me-section {
-    background-color: rgb(206, 243, 243);
+    background-color: rgb(221, 193, 155);
 }
 .me-container {
     display: flex;
