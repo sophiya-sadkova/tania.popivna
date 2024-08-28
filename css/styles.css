@@ -1,5 +1,6 @@
 body {
     font-family: "Comfortaa", sans-serif;
+    background-color: #e7e2e0;
 }
 
 h1,
@@ -235,7 +236,6 @@ header {
 /* Prices */
 
 .prices-section {
-    background-color: rgb(206, 243, 243);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 32px;
@@ -262,7 +262,7 @@ header {
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048);
     text-align: center;
-    background-color: teal;
+    background-color: olivedrab;
     color: #fff;
     width: 120px;
 }
@@ -270,7 +270,7 @@ header {
 /* footer */
 
 footer {
-    background-color: teal;
+    background-color: rgb(70, 68, 67);
     padding-top: 60px;
     padding-bottom: 60px;
 }
