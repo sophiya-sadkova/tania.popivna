@@ -144,7 +144,7 @@ header {
 }
 /* Me */
 .me-section {
-    background-color: #e7e2e0;
+    background-color: #d9c5ba;
 }
 .me-container {
     display: flex;
@@ -169,7 +169,7 @@ header {
 .me-quote {
     font-family: "Great Vibes", sans-serif;
     font-size: 50px;
-    color: #c9a793;
+    color: #9c6f55;
 }
 
 .me-photo {
@@ -289,9 +289,27 @@ footer {
 }
 
 @media screen and (min-width:1158px) {
+    .container {
+        width: 1158px;
+        padding-left: 15px;
+    padding-right: 15px;
+    }
     .hero {
         background-image: url(../images/hero-color.png);
         height: 600px;
     }
-    
+    .hero-title {
+        font-size: 48px;
+        margin-bottom: 360px;
+    }
+    .me-description {
+        width: 600px;
+    }
+    .portfolio-list {
+        gap: 144px;
+    }
+    .prices-list {
+        flex-wrap: nowrap;
+        gap: 60px;
+    }
 }
