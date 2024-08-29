@@ -34,9 +34,9 @@ section {
 }
 
 .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -48,7 +48,7 @@ section {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: olivedrab;
+    color: #c9a793;
     width: 115;
     height: 24;
     margin-right: 76px;
@@ -87,7 +87,7 @@ header {
 
 .nav-item-link:hover,
 .nav-item-link:focus {
-    color: olivedrab;
+    color: #c9a793;
 }
 
 .language-item {
@@ -101,9 +101,9 @@ header {
 
 /* Hero */
 .hero {
-    background-color: olivedrab;
-    height: 600px;
-    background-image: url(../images/hero-color.png);
+    background-color: #9c6f55;
+    height: 432px;
+    background-image: url(../images/bg-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -117,10 +117,12 @@ header {
 }
 .hero-title {
     font-weight: 300;
-    font-size: 48px;
+    /* font-size: 48px; */
+    font-size: 30px;
     line-height: 107%;
     letter-spacing: 0.02em;
-    margin-bottom: 360px;
+    /* margin-bottom: 360px; */
+    margin-bottom: 180px;
     color: rgb(231, 231, 230);
     text-shadow: black;
 }
@@ -131,22 +133,22 @@ header {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: olivedrab;
+    background-color: #c9a793;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: 0;
     border-radius: 8px;
     transition: background-color 250ms ease-in;
 }
 .button:hover, .button:focus {
-    background-color: rgb(78, 105, 25);
+    background-color: #9c6f55
 }
-
 /* Me */
 .me-section {
     background-color: #e7e2e0;
 }
 .me-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 64px;
 }
 .me-title {
@@ -160,13 +162,14 @@ header {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    width: 600px;
+    width: 280px;
     margin-top: 8px;
     margin-bottom: 40px;
 }
 .me-quote {
     font-family: "Great Vibes", sans-serif;
     font-size: 50px;
+    color: #c9a793;
 }
 
 .me-photo {
@@ -189,17 +192,19 @@ header {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    /* gap: 144px; */
+    gap: 24px;
 }
 
 .portfolio-item {
-    width: 360px;
+    width: 280px;
     height: 420px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: transform 250ms ease-in-out;
+
 
 }
 
@@ -245,6 +250,8 @@ header {
 
 .prices-list {
     display: flex;
+    flex-wrap: wrap;
+    /* gap: 140px; */
     gap: 60px;
 }
 
@@ -253,25 +260,38 @@ header {
 }
 
 .price-includes-list {
-    list-style-type: disc;
 }
 
 .price {
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding: 12px;
     border-radius: 12px;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048);
     text-align: center;
-    background-color: olivedrab;
+    background-color: #c9a793;
     color: #fff;
     width: 120px;
 }
-
+.price-last {
+    margin-top: 20px;
+}
+.price-photo {
+    border-radius: 4px;
+}
 /* footer */
 
 footer {
     background-color: rgb(70, 68, 67);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+@media screen and (min-width:1158px) {
+    .hero {
+        background-image: url(../images/hero-color.png);
+        height: 600px;
+    }
+    
 }
