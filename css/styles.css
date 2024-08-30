@@ -296,6 +296,17 @@ fill: #c9a793;
 .price-photo {
     border-radius: 4px;
 }
+/* Advices */
+.advices-list {
+    display: flex;
+    gap: 48px;
+}
+.advive-item {
+    width: calc((100% - 96px) / 3);
+}
+.advice-item-title {
+
+}
 /* footer */
 
 footer {
@@ -303,12 +314,24 @@ footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.footer-container {
+    display: flex;
+}
 
 @media screen and (min-width:1158px) {
     .container {
         width: 1158px;
         padding-left: 15px;
     padding-right: 15px;
+    }
+    .navigation {
+        display: flex;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .logo {
+        font-size: 24px;
     }
     .hero {
         background-image: url(../images/hero-color.png);
