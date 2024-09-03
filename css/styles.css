@@ -299,13 +299,15 @@ fill: #c9a793;
 /* Advices */
 .advices-list {
     display: flex;
+    flex-direction: column;
+    width: 100%;
     gap: 48px;
 }
 .advive-item {
-    width: calc((100% - 96px) / 3);
+    width: 100%;
 }
 .advice-item-title {
-
+margin-bottom: 8px;
 }
 /* footer */
 
@@ -316,6 +318,82 @@ footer {
 }
 .footer-container {
     display: flex;
+    flex-direction: column;
+}
+.footer-logo {
+    font-family: "Baskervville SC", sans-serif;
+    font-weight: 400;
+    /* font-size: 24px; */
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #c9a793;
+    width: 115;
+    height: 24;
+    margin-right: 76px;
+}
+.footer-socials {
+    margin-top: 20px;
+}
+.footer-socials-title {
+    color: #c9a793;
+}
+.footer-socials-list {
+    display: flex;
+    gap: 12px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.footer-socials-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-container-footer {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #c9a793;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-container-footer:hover, .image-container-footer:focus {
+    background-color: #9c6f55;
+}
+.footer-icon {
+    fill: #fff;
+}
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+    }
+    .hero {
+        background-image: url(../images/bg-tablet.png);
+    }
+    .navigation {
+        display: flex;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .me-container {
+        flex-direction: row;
+        gap: 24px;
+    }
+    .me-description {
+        width: 340px;
+    }
+    .footer-container {
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .portfolio-list {
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width:1158px) {
@@ -324,12 +402,8 @@ footer {
         padding-left: 15px;
     padding-right: 15px;
     }
-    .navigation {
-        display: flex;
-    }
-    .menu-btn {
-        display: none;
-    }
+
+    
     .logo {
         font-size: 24px;
     }
@@ -340,6 +414,10 @@ footer {
     .hero-title {
         font-size: 48px;
         margin-bottom: 360px;
+    }
+    .me-container {
+        flex-direction: column;
+        height: 460px;
     }
     .me-description {
         width: 600px;
